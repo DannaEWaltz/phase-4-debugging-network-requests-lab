@@ -2,7 +2,7 @@ repo_name: DannaEWaltz/phase-4-debugging-network-requests-lab
 report_id: 1b16b58e92b109b1ac9f16ad74261477
 version: 0.1
 repo_type: Public
-timestamp: '2024-02-02T05:55:43+00:00'
+timestamp: '2024-02-29T19:50:44+00:00'
 requested_by: graciemcguire
 provider: github
 branch: main
@@ -184,6 +184,13 @@ tools:
   detection_source: Gemfile
   last_updated_by: ihollander
   last_updated_on: 2021-05-09 10:06:44.000000000 Z
+  vulnerabilities:
+  - name: Rack CORS Middleware has Insecure File Permissions
+    cve_id: CVE-2024-27456
+    cve_url: https://github.com/advisories/GHSA-785g-282q-pwvx
+    detected_date: Feb 27
+    severity: moderate
+    first_patched: 
 - name: sqlite3
   description: This module allows Ruby programs to interface with the SQLite3 database
     engine
